@@ -1,0 +1,7 @@
+#make commands
+make all
+g++ code.cpp Frame_table.cpp PageTable.cpp -o global// GLOBAL
+g++ code.cpp Frame_table_local.cpp PageTable.cpp -o local// LOCAL
+
+#SCRIPT COMMAND (this will generate a txt file)
+./run_simulator.sh (after make all)---->op.txt(with all outputs)
